@@ -1,0 +1,25 @@
+input {
+    width: 150px;
+    height: 100;
+    font-size: 75px;
+    border-radius:10px ;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+}
+
+#calform {
+    margin-left: 225px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: rgba(241, 241, 10, 0.712);
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    color: red;
+  }

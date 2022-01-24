@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Distance Converter (Miles to Kilometers)</h1>
+        <p class="para">Enter distance value in Miles</p>
+
+        <p>
+            <label>Miles</label>
+            <input id = "inputMiles" type = "number" placeholder="miles" oninput="distanceConverter(this.value)" onchange="distanceConverter(this.value)">
+        </p>
+        <p>The distance is : <span id = "outputKilometer"></span></p>
+    </div>
+
+    <a href="../Main Code/index.html">Home</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
