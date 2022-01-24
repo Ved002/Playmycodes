@@ -1,0 +1,29 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.projects {
+    border: 8px solid red;
+    display: block;
+    margin : 0 auto;
+    margin-top: 100px;
+}
+
+p {
+    margin-top: auto;
+    margin-left: 590px;
+    font-size: 20px;
+    color: gold;
+}
+
+img {
+    height:  311px;
+    width: 491px;
+    
+}
+
